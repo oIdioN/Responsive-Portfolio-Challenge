@@ -1,45 +1,144 @@
+<!--HTML and grid structure based on https://apyosi.github.io/Portfolio-Template-Lernantino/index.html-->
 <!DOCTYPE html>
-<html lang="en-gb">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Csaba Locsey | Front End Dev</title>
+    <meta name="description" content="Aspiring Front-end Developer with multiple succesful projects ">
+    <meta name="keywords" content="web development, web app development, ecommerce, seo, social media marketing, market research, digital marketing strategy ">
+    <link rel="stylesheet" href="./src/style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');</style> 
+    <meta name="robots" content="noindex, nofollow">
+
 </head>
-
 <body>
-  <!-- main logo / nav -->
-  <header>
-    <h1>Lernantino</h1>
-    <nav>
-    </nav>
-  </header>
+    
+<!--NAV-->
+    <header class="nav-bar">
+        <a href="index.html">
+            <img src="src/icons/cl_logo.png" alt="logo" style="width:52px;height:52px;"></a> 
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </section>
+        <nav>
+            <ul class="top-nav">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#portfolio">My projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+<!--BANNER-->
+    <section class="banner">
+        <h2 class="subtitle">Hi, it's Csaba</h2>
     </section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
+
+<!--ABOUT ME-->
+<main class="main-grid"> 
+    <aside class="sidebar">
+        <h2>About Me</h2>
+    </aside>
+    <section class="about-me">
+        
+        <p>I'm a dedicated front-end developer currently pursuing my studies. With a strong foundation in HTML, CSS, and JavaScript, I have developed a knack for creating visually appealing and functional websites. I'm always eager to learn new technologies and apply them to solve complex problems.</p>
+
+        <p>In addition to my academic pursuits, I also actively contribute to my own projects. These projects serve as a platform for me to experiment with new technologies, refine my skills, and create something tangible from my ideas. They showcase my ability to independently manage projects from conception to completion.</p>
     </section>
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+<!--MY PROJECTS-->  
+<aside class="sidebar">
+    <h2>My Projects</h2>
+</aside>
+
+<section id="portfolio">
+<section class="portfolio">
+
+<figure id="firstproject">
+    <a href="https://otthon.uk/">
+    <img src="src/images/otthon-maps.png" alt="otthon.uk" width="500" height="400">
+    <figcaption>
+        <h3>otthon</h3>
+        <p>A hybrid Real Estate Agency</p>
+        <p>launch late 2024</p>
+    </figcaption>
+    </a>   
+</figure>
+
+<figure id="secondproject">
+    <a href="https://ukapro.com/">
+    <img src="src/images/ukapro.png" alt="ukapro.com" width="500" height="200">
+        <figcaption>
+            <h3>UK Apró</h3>
+            <p>Classifieds site</p>
+        </figcaption>
+    </a>
+</figure>
+
+<figure id="thirdproject">
+    <a href="https://edupros.uk">
+        <img src="src/images/edupros.jpg" alt="edupros.uk" width="500" height="200">
+        <figcaption>
+            <h3>EduPros</h3>
+            <p>Student Agency</p>
+        </figcaption>
+    </a>
+</figure>
+
+<figure id="fourthproject">
+    <a href="https://github.com/oIdioN/horison-refactor-challenge">
+        <img src="src/images/Horiseon.png" alt="horiseon refactor challenge" width="500" height="200">
+        <figcaption>
+            <h3>Horiseon</h3>
+            <p>Bootcamp challenge</p>
+        </figcaption>
+    </a>
+</figure>
+
+<figure id="fifthproject">
+    <a href="https://github.com/oIdioN/JavaScript-Password-Generator-challenge">
+        <img src="src/images/jspassword.png" alt="Password Generator challenge" width="500" height="200">
+        <figcaption>
+            <h3>JS Password Generator</h3>
+            <p>Bootcamp challenge</p>
+        </figcaption>
+    </a>
+</figure>
+</section>
+</section>
+
+<!--EXPERIENCE-->
+  <aside class="sidebar">
+        <h2>Experience</h2>
+    </aside>
+    <section id="experience">
+   <ul class="experience">
+       <li><img src="src/icons/html5.png" alt="html5"></li>
+       <li><img src="src/icons/css3.png" alt="css"></li>
+       <li><img src="src/icons/mysql.png" alt="mysql"></li>
+       <li><img src="src/icons/javascript.png" alt="javascript"></li>
+       <li><img src="src/icons/react.png" alt="react"></li>
+       <li><img src="src/icons/nodedotjs.png" alt="nodedotjs"></li>
+   </ul>
+</section>
+
+<!--CONTACT-->
+   <aside class="sidebar">
+        <h2>Contact Me</h2>
+    </aside>
+    <section id="contact">
+        <ul class="contactme">
+            <li><a href="tel:+447767814399">Call Me</a></li>
+            <li><a href="mailto:locsey@icloud.com">Send an email</a></li>
+            <li><a href="https://github.com/oIdioN">GitHub</a></li>
     </section>
-  </main>
+
+<!--FOOTER-->
+    <section id=footer>
+        <p class="copyright">© OIdioN 2024</p>
+    </section>
+
+</main>
 </body>
-
 </html>

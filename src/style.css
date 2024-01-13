@@ -1,0 +1,233 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+html {
+    scroll-behavior: smooth;
+    }
+
+
+body {
+    min-height: 100%;
+    font-family:'Poppins', sans-serif ;
+    line-height: 1.5;
+    background-color: whitesmoke;
+    }
+
+
+div {
+    display: block;
+    }
+
+
+header {
+   padding: 10px 0 10px 0;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   background-color: whitesmoke;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 5;
+   border-bottom: 1px solid grey;
+    }
+
+
+h1 {
+    padding: 0 10px 0 30px;
+    line-height: normal;
+    font-size: 44px;
+    }
+
+
+nav {
+    display: flex;
+    color: whitesmoke;
+    float: right;
+    }
+
+
+nav a {
+    padding: 5px 10px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    }
+
+
+nav a:hover {
+    color: whitesmoke; 
+    background-color: black; 
+    }
+
+
+nav li {
+    padding: 5px;
+    }   
+
+
+.top-nav {
+    list-style: none;
+    display: flex;
+    }
+
+
+.banner {
+    background-image: url(./images/picbig.png);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 650px;
+    position: relative;
+    }
+
+
+.subtitle {
+    padding: 0px 10px;
+    color: black;
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    left: 20px;
+    bottom: 100px;
+    }
+
+
+.main-grid {
+    padding: 0 0 120px 0;
+    margin: 40px auto 0px auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 15% 75%;
+    gap: 5%;
+    }
+
+
+.sidebar {
+    padding-right: 15px;
+    border-right: 4px solid darkslategrey;
+    font-size: 20px;
+    text-align: end;
+    }   
+
+
+.about-me {
+    width: auto;
+    height: 200px;
+    }
+
+
+img{
+    display: block;
+    max-width: 100%;
+    }
+
+
+.portfolio {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 420px 210px 210px;
+    grid-template-areas: 
+    "firstproject firstproject"
+    "secondproject thirdproject"
+    "fourthproject fifthproject";
+    gap: 20px;
+    }
+
+
+.portfolio img {
+    object-fit: cover;
+    width: 100%;
+    border: solid black 2px;
+    border-radius: 10px;
+    }
+
+
+.portfolio img:hover {
+    transform: scale(1.03);
+    border: none;
+    }
+
+
+figure {
+    width: 100%;
+    position: relative;
+    opacity: .80;
+    }
+
+
+#firstproject {
+    grid-area: firstproject;
+    }
+#secondproject {
+    grid-area: "secondproject";
+    }
+#thirdproject {
+    grid-area: "thirdproject";
+    }
+#fourthproject {
+    grid-area: "fourthproject";
+    }
+#fifthproject {
+    grid-area: "fifthproject";
+    }
+
+
+figcaption {
+    padding: 4px;
+    background-color: #000000;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 30px;
+    right: -10px;
+    border-radius: 5px;
+    }
+
+.experience {
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-evenly;
+    list-style: none;
+    }
+
+.contactme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    }
+
+.contactme a {
+    color:black;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 10px;
+    }
+
+
+.contactme a:hover {
+    background-color: black;
+    color: whitesmoke;
+    }
+
+
+@media screen and (max-width: 915px) {
+    .sidebar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
