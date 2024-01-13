@@ -131,8 +131,8 @@ A logo that includes artistic or design elements, (i.e. not just the name on its
 
 Built with:
 
-![Static Badge](https://img.shields.io/badge/63%25-63%25?label=html)
-![Static Badge](https://img.shields.io/badge/37%25-37%25?label=css)
+![Static Badge](https://img.shields.io/badge/58%25-58%25?label=html)
+![Static Badge](https://img.shields.io/badge/42%25-42%25?label=css)
 
 
 
