@@ -123,9 +123,7 @@ This project has several areas which needs to be upgraded, and gradiually will d
 ## License
 
 The project served under the MIT License with the exception of usage of the logo.
-A logo that includes artistic or design elements, (i.e. not just the name on its own), is legally regarded as being a work of artistic creation and therefore will be protected under copyright law.
-
-Copyright protects the logo as an artistic work. As copyright is an automatic international right, it therefore follows that, (other than activities specified under fair dealing rules), unauthorised copying of that logo would be an infringement.
+A logo that includes artistic or design elements, (i.e. not just the name on its own), is legally regarded as being a work of artistic creation and therefore will be protected under copyright law therefore follows that, (other than activities specified under fair dealing rules), unauthorised copying of that logo would be an infringement.
 
 
 
