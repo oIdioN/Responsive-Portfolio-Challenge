@@ -110,6 +110,8 @@ Header: Photo by <a href="https://unsplash.com/@balazscsaba2006?utm_content=cred
   
 Edupros image: Photo by <a href="https://unsplash.com/@mdesign85?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">MD Duran</a> on <a href="https://unsplash.com/photos/woman-wearing-academic-cap-and-dress-selective-focus-photography-1VqHRwxcCCw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
+JS Password image is generated with Craiyon v3 <a href="https://www.craiyon.com/image/yuwTqIQVSV6lp0EIUH3wvg">Crayon v3 AI Image Generator</a>
+
 Icons used in Experience section provided by Simple Icons: <a href="https://simpleicons.org/?q=node">Simple Icons</a>
 
 
@@ -123,9 +125,6 @@ This project has several areas which needs to be upgraded, and gradiually will d
 ## License
 
 The project served under the MIT License with the exception of usage of the logo.
-A logo that includes artistic or design elements, (i.e. not just the name on its own), is legally regarded as being a work of artistic creation and therefore will be protected under copyright law.
-
-Copyright protects the logo as an artistic work. As copyright is an automatic international right, it therefore follows that, (other than activities specified under fair dealing rules), unauthorised copying of that logo would be an infringement.
 
 
 
