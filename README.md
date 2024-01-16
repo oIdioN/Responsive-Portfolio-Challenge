@@ -23,7 +23,7 @@ The html structure followed the already mentioned template and whilst had been f
 
 The overall color scheme based on "whitesmoke" and "black", for the sole reason of the Project section would be more engaging.
 
-![HEADER](src/images/screenshots/Front%20End%20Dev.png "HEADER") 
+![HEADER](src/images/screenshots/snapshot.png "HEADER") 
 
 
 
